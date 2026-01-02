@@ -5,15 +5,26 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "format": "prettier . --write",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "2.1.1",
     "@nuxt/ui": "4.3.0",
+    "@nuxtjs/i18n": "10.2.1",
+    "@tailwindcss/vite": "^4.1.18",
     "nuxt": "^4.2.2",
+    "tailwindcss": "^4.1.18",
     "typescript": "^5.9.3",
+    "unifont": "^0.7.1",
+    "unstorage": "^1.17.3",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@iconify-json/material-symbols-light": "^1.2.50",
+    "prettier": "3.7.4"
   }
 }
